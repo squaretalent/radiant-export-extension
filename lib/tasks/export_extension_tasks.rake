@@ -3,10 +3,10 @@ namespace :radiant do
     namespace :export do
 
       desc "Dump schema and data to db/schema.rb and db/data.yml"
-      task(:dump => [ "db:schema:dump", "db:data:dump" ])
+      task(:dump => [ "db:schema:dump", "radiant:extensions:export:data:dump" ])
 
       desc "Load schema and data from db/schema.rb and db/data.yml"
-      task(:load => [ "db:schema:load", "db:data:load" ])
+      task(:load => [ "db:schema:load", "radiant:extensions:export:data:load" ])
 
       namespace :data do
         def db_dump_data_file (extension = "yml")
