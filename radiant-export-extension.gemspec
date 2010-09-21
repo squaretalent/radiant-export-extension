@@ -5,7 +5,7 @@
 
 Gem::Specification.new do |s|
   s.name = %q{radiant-export-extension}
-  s.version = "0.1.1"
+  s.version = "0.1.3"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Dirk Kelly"]
@@ -24,7 +24,7 @@ Gem::Specification.new do |s|
      "export_extension.rb",
      "lib/csv_db.rb",
      "lib/serialization_helper.rb",
-     "lib/tasks/yaml_db_tasks.rake",
+     "lib/tasks/export_extension_tasks.rake",
      "lib/yaml_db.rb",
      "radiant-export-extension.gemspec",
      "spec/base.rb",
