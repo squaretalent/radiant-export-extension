@@ -1,4 +1,11 @@
-# YamlDb
+# Radiant Export
+
+## This is just `yaml_db` modified to export `schema_migration` in a radiant extension wrapper
+
+## Installation
+
+    gem install radiant-export-extension
+    rake radiant:extensions:export:update
 
 YamlDb is a database-independent format for dumping and restoring data.  It complements the the database-independent schema format found in db/schema.rb.  The data is saved into db/data.yml.
 
