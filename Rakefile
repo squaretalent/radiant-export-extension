@@ -10,6 +10,7 @@ begin
   end
 rescue LoadError
   puts "Jeweler (or a dependency) not available. This is only required if you plan to package export as a gem."
+  Jeweler::GemcutterTasks.new
 end
 
 # In rails 1.2, plugins aren't available in the path until they're loaded.
