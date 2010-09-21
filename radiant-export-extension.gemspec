@@ -25,6 +25,7 @@ Gem::Specification.new do |s|
      "lib/serialization_helper.rb",
      "lib/tasks/yaml_db_tasks.rake",
      "lib/yaml_db.rb",
+     "radiant-export-extension.gemspec",
      "spec/base.rb",
      "spec/serialization_helper_base_spec.rb",
      "spec/serialization_helper_dump_spec.rb",

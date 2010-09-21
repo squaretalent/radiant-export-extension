@@ -5,7 +5,11 @@
 ## Installation
 
     gem install radiant-export-extension
-    rake radiant:extensions:export:update
+    rake radiant:extensions:update_all
+    
+config/environment.rb
+    
+    config.gem 'radiant-export-extension', :version => '0.1.0', :lib => false
 
 YamlDb is a database-independent format for dumping and restoring data.  It complements the the database-independent schema format found in db/schema.rb.  The data is saved into db/data.yml.
 
